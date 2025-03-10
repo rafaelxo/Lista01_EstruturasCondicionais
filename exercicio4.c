@@ -6,14 +6,14 @@ int main() {
     int idade;
     scanf("%d", &idade);
     if (idade >= 5 && idade <= 7) {
-        printf("\nInfantil\n");
+        printf("Infantil");
     } else if (idade >= 8 && idade <= 10) {
-        printf("\nJuvenil\n");
+        printf("Juvenil");
     } else if (idade >= 11 && idade <= 15) {
-        printf("\nAdolescente\n");
+        printf("Adolescente");
     } else if (idade >= 16 && idade <= 30) {
-        printf("\nAdulto\n");
+        printf("Adulto");
     } else if (idade > 30) {
-        printf("\nSenior\n");
+        printf("Senior");
     }
 }

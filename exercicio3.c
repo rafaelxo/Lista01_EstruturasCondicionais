@@ -8,8 +8,8 @@ int main() {
     scanf("%d %c", &ano_nascimento, &aniversario);
     idade = ano_atual - ano_nascimento;
     if (idade <= 17) {
-        printf("\n%d\nNao pode dirigir\n", idade);
+        printf("%d\nNao pode dirigir", idade);
     } else if (idade >= 18) {
-        printf("\n%d\nPode dirigir\n", idade);
+        printf("%d\nPode dirigir", idade);
     }
 }

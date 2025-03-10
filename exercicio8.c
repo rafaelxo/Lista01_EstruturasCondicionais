@@ -11,5 +11,5 @@ int main() {
     } else if (sexo == 'M') {
         peso_ideal = (62.1 * altura) - 44.7;
     }
-    printf("\n%.2f\n", peso_ideal);
+    printf("%.2f", peso_ideal);
 }

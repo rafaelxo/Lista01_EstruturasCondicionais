@@ -7,6 +7,6 @@ int main() {
     scanf("%f%f", &a, &b);
     if (a != 0 && b != 0) {
         raiz = -b/(a*1.0);
-        printf("\n%.2f\n", raiz);
+        printf("%.2f", raiz);
     }
 }

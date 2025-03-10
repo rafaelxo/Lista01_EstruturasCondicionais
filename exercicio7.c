@@ -12,5 +12,5 @@ int main() {
         rendimento = valor * 0.04;
     }
     novo_valor = valor + rendimento;
-    printf("\n%.2f\n", novo_valor);
+    printf("%.2f", novo_valor);
 }

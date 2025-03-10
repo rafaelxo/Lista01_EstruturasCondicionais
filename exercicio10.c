@@ -18,5 +18,5 @@ int main() {
     } else {
         gratificacao = 500;
     }
-    printf("\n%.2f\n", gratificacao);
+    printf("%.2f", gratificacao);
 }
