@@ -12,7 +12,7 @@ int main() {
     if (aniversario == 'S') {
         idade = idade;
     } else if (aniversario == 'N') {
-        idade = idade - 1;
+        idade -= 1;
     }
     if (idade <= 17) {
         printf("%d\nNao pode dirigir", idade);
