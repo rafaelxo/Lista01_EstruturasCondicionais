@@ -16,7 +16,7 @@ int main() {
     }
     if (idade <= 17) {
         printf("%d\nNao pode dirigir", idade);
-    } else if (idade >= 18) {
+    } else {
         printf("%d\nPode dirigir", idade);
     }
 }
